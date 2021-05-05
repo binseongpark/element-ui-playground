@@ -1,3 +1,14 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
 .el-form-item__content {
   padding-left: 15px;
   border-left: 1px solid red;
@@ -16,6 +27,7 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .el-form-item__label-wrap {
   margin-left: 0px !important;
   height: 100%;
@@ -26,9 +38,11 @@
 .test-form-group {
   height: 58px;
   display: flex;
-  width: 100%; 
+  width: 100%;
   align-items: center;
 }
+
 .el-form {
   width: 100%;
+  /* font-family: 'Noto Sans KR', sans-serif; */
 }
